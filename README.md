@@ -25,3 +25,10 @@ refinements, suggesting that explicitly modeling spatial heterogeneity and TD tr
 dynamics increases responsiveness to even fluctuations in case counts. Our framework is robust
 across climates, shown by simulations using a broader temperature range, and suggests a useful
 application in retrospective analyses.
+
+Files:
+The main function file computes the individual reproduction number within a set of 10,000 cases within one year of time. Temperature dependence can be removed in either the ground-truth simulations or in the inference equations by removing the temperature term, T, from the corresponding likelihood functions. 
+
+The spatial misspecified scenarios file utilizes previously-published generation time distributions for dengue transmission that are not temperature dependent, to test the effect of mis-specifying the generation time, while keeping the spatial component.
+
+The non-spatial file contains the algorithm to reproduce the previous inference processes under the assumption that space is not a factor in viral transmission.
