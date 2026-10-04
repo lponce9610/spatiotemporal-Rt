@@ -27,6 +27,7 @@ across climates, shown by simulations using a broader temperature range, and sug
 application in retrospective analyses.
 
 Files:
+
 The main function file computes the individual reproduction number within a set of 10,000 cases within one year of time. Temperature dependence can be removed in either the ground-truth simulations or in the inference equations by removing the temperature term, T, from the corresponding likelihood functions. 
 
 The spatial misspecified scenarios file utilizes previously-published generation time distributions for dengue transmission that are not temperature dependent, to test the effect of mis-specifying the generation time, while keeping the spatial component.
